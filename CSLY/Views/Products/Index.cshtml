@@ -1,0 +1,153 @@
+﻿@model IEnumerable<CSLY.Models.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Breadcrumbs-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Products</li>
+    </ol>
+    <!-- DataTables Example -->
+    <div class="card mb-3">
+        <div class="card-header">
+            <i class="fas fa-table"></i>
+            Product Details
+            <a href="~/Products/New" class="btn btn-info pull-right fa fa-plus">Add New</a>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="products" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            
+                            <th>Product Name</th>
+                            <th>Category</th>
+                            <th>Amount</th>
+                            <th>Price</th>
+                            <th>CreatedDate</th>
+                            <th>Image</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @*@foreach (var item in Model)
+                        {
+
+                            <tr>
+                                <td><a href="~/Products/Edit/@item.ProductId">@item.ProductName</a></td>
+                                <td>@item.Category.CategoryName</td>
+                                <td>@item.Amount</td>
+                                <td>@item.Price</td>
+                                <td>@item.CreatedDate</td>
+                                <td><img src="@Url.Content(@item.ImagePath)" width="50" height="50" /></td>
+                                <td><a href="~/Products/Delete/@item.ProductId">Delete</a></td>
+                            </tr>
+                        }*@
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            
+                            <th>Product Name</th>
+                            <th>Category</th>
+                            <th>Amount</th>
+                            <th>Price</th>
+                            <th>CreatedDate</th>
+                            <th>Image</th>
+                            <th>Action</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section scripts
+    {
+
+        <script>
+            $(document).ready(function () {
+                    $.ajax({
+                        url: "/api/Products",
+                        dataSrc: "",
+                        method:"GET",
+                        success: function (data) {
+                            $('#products').DataTable({
+
+                                stateSave: true,
+                                "columnsDefs": [
+                                    {
+                                        "width": "1200px", "targets": 0
+                                    }
+                                ],
+                                data: data,
+                                columns: [
+                                    {
+
+
+                                        data: "ProductName",
+                                        render: function (data, type, Product) {
+                                            return "<a href = '/Products/Edit/" + Product.ProductId + "'>" + Product.ProductName + "</a>";
+                                        }
+
+                                    },
+
+                                    {
+                                        data:"Category.CategoryName"
+                                    },
+
+                                    {
+                                        data: "Amount"
+                                    },
+
+                                    {
+                                        data: "Price"
+                                    },
+
+                                    {
+                                        data: "CreatedDate"
+                                    },
+
+                                    {
+                                        data: "ImagePath",
+                   
+                                    },
+
+                                    {
+                                        data: "ProductId",
+                                        render: function (data) {
+                                            return "<button class='btn-link js-delete' data-product-id=" + data + ">Delete</button>";
+                                        }
+                                    },
+
+                                ]
+                            });
+                            console.log(data);
+                        }
+                    });
+                    $("#products").on("click", ".js-delete", function () {
+                        var button = $(this);
+                        bootbox.confirm("Are you sure you wanna remove this product", function (result) {
+                            if (result) {
+                                $.ajax({
+                                    url: "/api/Products/" + button.attr("data-product-id"),
+                                    method: "DELETE",
+                                    success: function () {
+                                        button.parents("tr").remove();
+                                    }
+                                });
+                            }
+                        });
+                    });
+                });
+        </script>
+    }
+

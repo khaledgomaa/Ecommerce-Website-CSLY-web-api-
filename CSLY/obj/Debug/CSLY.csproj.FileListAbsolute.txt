@@ -1,0 +1,305 @@
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\ApplicationInsights.config
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\csc.exe
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\System.Collections.Immutable.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\vbc.exe
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\VBCSCompiler.exe
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\roslyn\VBCSCompiler.exe.config
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\CSLY.dll.config
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\CSLY.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\CSLY.pdb
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Antlr3.Runtime.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\EntityFramework.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\EntityFramework.SqlServer.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AI.Web.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AI.WindowsServer.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.ApplicationInsights.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.Google.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Web.Infrastructure.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Newtonsoft.Json.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Owin.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.Helpers.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.Mvc.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.Optimization.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.Razor.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.WebPages.Deployment.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.WebPages.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.WebPages.Razor.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\WebGrease.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AI.Web.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AI.WindowsServer.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.ApplicationInsights.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.Helpers.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.Mvc.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.Optimization.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.Razor.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.WebPages.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.WebPages.Deployment.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\System.Web.WebPages.Razor.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Antlr3.Runtime.pdb
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Newtonsoft.Json.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\EntityFramework.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\EntityFramework.SqlServer.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.Google.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\obj\Debug\CSLY.dll
+c:\users\khaledgomaa\documents\visual studio 2015\Projects\CSLY\CSLY\obj\Debug\CSLY.pdb
+C:\Users\KhaledGomaa\documents\visual studio 2015\Projects\CSLY\CSLY\obj\Debug\CSLY.csprojResolveAssemblyReference.cache
+E:\CSLY\CSLY\bin\ApplicationInsights.config
+E:\CSLY\CSLY\bin\roslyn\csc.exe
+E:\CSLY\CSLY\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CSLY\CSLY\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CSLY\CSLY\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CSLY\CSLY\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CSLY\CSLY\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CSLY\CSLY\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CSLY\CSLY\bin\roslyn\System.Collections.Immutable.dll
+E:\CSLY\CSLY\bin\roslyn\System.Reflection.Metadata.dll
+E:\CSLY\CSLY\bin\roslyn\vbc.exe
+E:\CSLY\CSLY\bin\roslyn\VBCSCompiler.exe
+E:\CSLY\CSLY\bin\roslyn\VBCSCompiler.exe.config
+E:\CSLY\CSLY\bin\CSLY.dll.config
+E:\CSLY\CSLY\bin\CSLY.dll
+E:\CSLY\CSLY\bin\CSLY.pdb
+E:\CSLY\CSLY\bin\Antlr3.Runtime.dll
+E:\CSLY\CSLY\bin\EntityFramework.dll
+E:\CSLY\CSLY\bin\EntityFramework.SqlServer.dll
+E:\CSLY\CSLY\bin\Microsoft.AI.Agent.Intercept.dll
+E:\CSLY\CSLY\bin\Microsoft.AI.DependencyCollector.dll
+E:\CSLY\CSLY\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\CSLY\CSLY\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\CSLY\CSLY\bin\Microsoft.AI.Web.dll
+E:\CSLY\CSLY\bin\Microsoft.AI.WindowsServer.dll
+E:\CSLY\CSLY\bin\Microsoft.ApplicationInsights.dll
+E:\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Core.dll
+E:\CSLY\CSLY\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\CSLY\CSLY\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CSLY\CSLY\bin\Microsoft.Owin.dll
+E:\CSLY\CSLY\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.Cookies.dll
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.dll
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.Facebook.dll
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.Google.dll
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.OAuth.dll
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.Twitter.dll
+E:\CSLY\CSLY\bin\Microsoft.Web.Infrastructure.dll
+E:\CSLY\CSLY\bin\Newtonsoft.Json.dll
+E:\CSLY\CSLY\bin\Owin.dll
+E:\CSLY\CSLY\bin\System.Web.Helpers.dll
+E:\CSLY\CSLY\bin\System.Web.Mvc.dll
+E:\CSLY\CSLY\bin\System.Web.Optimization.dll
+E:\CSLY\CSLY\bin\System.Web.Razor.dll
+E:\CSLY\CSLY\bin\System.Web.WebPages.Deployment.dll
+E:\CSLY\CSLY\bin\System.Web.WebPages.dll
+E:\CSLY\CSLY\bin\System.Web.WebPages.Razor.dll
+E:\CSLY\CSLY\bin\WebGrease.dll
+E:\CSLY\CSLY\bin\Microsoft.AI.DependencyCollector.xml
+E:\CSLY\CSLY\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\CSLY\CSLY\bin\Microsoft.AI.Web.xml
+E:\CSLY\CSLY\bin\Microsoft.AI.WindowsServer.xml
+E:\CSLY\CSLY\bin\Microsoft.ApplicationInsights.xml
+E:\CSLY\CSLY\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CSLY\CSLY\bin\System.Web.Helpers.xml
+E:\CSLY\CSLY\bin\System.Web.Mvc.xml
+E:\CSLY\CSLY\bin\System.Web.Optimization.xml
+E:\CSLY\CSLY\bin\System.Web.Razor.xml
+E:\CSLY\CSLY\bin\System.Web.WebPages.xml
+E:\CSLY\CSLY\bin\System.Web.WebPages.Deployment.xml
+E:\CSLY\CSLY\bin\System.Web.WebPages.Razor.xml
+E:\CSLY\CSLY\bin\Antlr3.Runtime.pdb
+E:\CSLY\CSLY\bin\Newtonsoft.Json.xml
+E:\CSLY\CSLY\bin\EntityFramework.xml
+E:\CSLY\CSLY\bin\EntityFramework.SqlServer.xml
+E:\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Core.xml
+E:\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\CSLY\CSLY\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\CSLY\CSLY\bin\Microsoft.Owin.xml
+E:\CSLY\CSLY\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.xml
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.Facebook.xml
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.Cookies.xml
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.OAuth.xml
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.Google.xml
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.Twitter.xml
+E:\CSLY\CSLY\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\CSLY\CSLY\obj\Debug\CSLY.dll
+E:\CSLY\CSLY\obj\Debug\CSLY.pdb
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.InitialModel.resources
+E:\CSLY\CSLY\obj\Debug\CSLY.csproj.GenerateResource.Cache
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.InitialModel1.resources
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.MakeCategoryNameToBeUniqueValue.resources
+E:\CSLY\CSLY\bin\AutoMapper.dll
+E:\CSLY\CSLY\bin\AutoMapper.xml
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.MakeMessageForUniqueValidationOnCategoryName.resources
+E:\CSLY\CSLY\bin\System.Net.Http.Formatting.dll
+E:\CSLY\CSLY\bin\System.Web.Http.dll
+E:\CSLY\CSLY\bin\System.Web.Http.WebHost.dll
+E:\CSLY\CSLY\bin\System.Net.Http.Formatting.xml
+E:\CSLY\CSLY\bin\System.Web.Http.xml
+E:\CSLY\CSLY\bin\System.Web.Http.WebHost.xml
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.DeleteSelectListPropFromProduct.resources
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.IDontKnowReally.resources
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.UpdateProductAndSlideImageModels.resources
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.ContinueUpdatingProduct.resources
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.TrySomething.resources
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.RecoverMyMistakeBuddy.resources
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.GetTiredWallahyOfTheNeedTOAddMigration.resources
+E:\CSLY\CSLY\obj\Debug\CSLY.Migrations.DropTableSlideImage.resources
+E:\Courses\CSLY\CSLY\bin\ApplicationInsights.config
+E:\Courses\CSLY\CSLY\bin\roslyn\csc.exe
+E:\Courses\CSLY\CSLY\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Courses\CSLY\CSLY\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Courses\CSLY\CSLY\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Courses\CSLY\CSLY\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Courses\CSLY\CSLY\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Courses\CSLY\CSLY\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Courses\CSLY\CSLY\bin\roslyn\System.Collections.Immutable.dll
+E:\Courses\CSLY\CSLY\bin\roslyn\System.Reflection.Metadata.dll
+E:\Courses\CSLY\CSLY\bin\roslyn\vbc.exe
+E:\Courses\CSLY\CSLY\bin\roslyn\VBCSCompiler.exe
+E:\Courses\CSLY\CSLY\bin\roslyn\VBCSCompiler.exe.config
+E:\Courses\CSLY\CSLY\bin\CSLY.dll.config
+E:\Courses\CSLY\CSLY\bin\CSLY.dll
+E:\Courses\CSLY\CSLY\bin\CSLY.pdb
+E:\Courses\CSLY\CSLY\bin\Antlr3.Runtime.dll
+E:\Courses\CSLY\CSLY\bin\AutoMapper.dll
+E:\Courses\CSLY\CSLY\bin\EntityFramework.dll
+E:\Courses\CSLY\CSLY\bin\EntityFramework.SqlServer.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.AI.DependencyCollector.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.AI.Web.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.AI.WindowsServer.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.ApplicationInsights.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.Google.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Courses\CSLY\CSLY\bin\Microsoft.Web.Infrastructure.dll
+E:\Courses\CSLY\CSLY\bin\Newtonsoft.Json.dll
+E:\Courses\CSLY\CSLY\bin\Owin.dll
+E:\Courses\CSLY\CSLY\bin\System.Net.Http.Formatting.dll
+E:\Courses\CSLY\CSLY\bin\System.Web.Helpers.dll
+E:\Courses\CSLY\CSLY\bin\System.Web.Http.dll
+E:\Courses\CSLY\CSLY\bin\System.Web.Http.WebHost.dll
+E:\Courses\CSLY\CSLY\bin\System.Web.Mvc.dll
+E:\Courses\CSLY\CSLY\bin\System.Web.Optimization.dll
+E:\Courses\CSLY\CSLY\bin\System.Web.Razor.dll
+E:\Courses\CSLY\CSLY\bin\System.Web.WebPages.Deployment.dll
+E:\Courses\CSLY\CSLY\bin\System.Web.WebPages.dll
+E:\Courses\CSLY\CSLY\bin\System.Web.WebPages.Razor.dll
+E:\Courses\CSLY\CSLY\bin\WebGrease.dll
+E:\Courses\CSLY\CSLY\bin\AutoMapper.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.AI.DependencyCollector.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.AI.Web.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.AI.WindowsServer.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.ApplicationInsights.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Courses\CSLY\CSLY\bin\System.Net.Http.Formatting.xml
+E:\Courses\CSLY\CSLY\bin\System.Web.Http.xml
+E:\Courses\CSLY\CSLY\bin\System.Web.Http.WebHost.xml
+E:\Courses\CSLY\CSLY\bin\System.Web.Helpers.xml
+E:\Courses\CSLY\CSLY\bin\System.Web.Mvc.xml
+E:\Courses\CSLY\CSLY\bin\System.Web.Optimization.xml
+E:\Courses\CSLY\CSLY\bin\System.Web.Razor.xml
+E:\Courses\CSLY\CSLY\bin\System.Web.WebPages.xml
+E:\Courses\CSLY\CSLY\bin\System.Web.WebPages.Deployment.xml
+E:\Courses\CSLY\CSLY\bin\System.Web.WebPages.Razor.xml
+E:\Courses\CSLY\CSLY\bin\Antlr3.Runtime.pdb
+E:\Courses\CSLY\CSLY\bin\Newtonsoft.Json.xml
+E:\Courses\CSLY\CSLY\bin\EntityFramework.xml
+E:\Courses\CSLY\CSLY\bin\EntityFramework.SqlServer.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.Google.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Courses\CSLY\CSLY\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.csprojResolveAssemblyReference.cache
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.InitialModel.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.InitialModel1.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.MakeCategoryNameToBeUniqueValue.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.MakeMessageForUniqueValidationOnCategoryName.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.DeleteSelectListPropFromProduct.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.IDontKnowReally.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.UpdateProductAndSlideImageModels.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.ContinueUpdatingProduct.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.TrySomething.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.RecoverMyMistakeBuddy.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.GetTiredWallahyOfTheNeedTOAddMigration.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.Migrations.DropTableSlideImage.resources
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.csproj.GenerateResource.Cache
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.dll
+E:\Courses\CSLY\CSLY\obj\Debug\CSLY.pdb
+E:\Courses\CSLY\CSLY\bin\System.Web.Cors.dll
+E:\Courses\CSLY\CSLY\bin\System.Web.Http.Cors.dll
+E:\Courses\CSLY\CSLY\bin\System.Web.Http.Cors.xml
+E:\Courses\CSLY\CSLY\bin\credentials.json
+E:\Courses\CSLY\CSLY\bin\Google.Apis.Auth.dll
+E:\Courses\CSLY\CSLY\bin\Google.Apis.Auth.PlatformServices.dll
+E:\Courses\CSLY\CSLY\bin\Google.Apis.Core.dll
+E:\Courses\CSLY\CSLY\bin\Google.Apis.dll
+E:\Courses\CSLY\CSLY\bin\Google.Apis.Drive.v3.dll
+E:\Courses\CSLY\CSLY\bin\Google.Apis.PlatformServices.dll
+E:\Courses\CSLY\CSLY\bin\Google.Apis.pdb
+E:\Courses\CSLY\CSLY\bin\Google.Apis.xml
+E:\Courses\CSLY\CSLY\bin\Google.Apis.Auth.pdb
+E:\Courses\CSLY\CSLY\bin\Google.Apis.Auth.xml
+E:\Courses\CSLY\CSLY\bin\Google.Apis.Core.pdb
+E:\Courses\CSLY\CSLY\bin\Google.Apis.Core.xml
+E:\Courses\CSLY\CSLY\bin\Google.Apis.Drive.v3.pdb
+E:\Courses\CSLY\CSLY\bin\Google.Apis.Drive.v3.xml

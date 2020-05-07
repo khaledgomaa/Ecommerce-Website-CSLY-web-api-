@@ -1,0 +1,40 @@
+﻿@model CSLY.Models.Category
+@{
+    ViewBag.Title = "CategoryForm";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Breadcrumbs-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Categories</li>
+        <li class="breadcrumb-item active">Add/Update</li>
+    </ol>
+    <!-- DataTables Example -->
+    <div class="card mb-3">
+        <div class="card-header">
+            <i class="fas fa-table"></i>
+            Add / Update Category
+           
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("CategoryManager", "Categories"))
+            {
+                <div class="form-group">
+                    @Html.LabelFor(c=>c.CategoryName)
+                    @Html.TextBoxFor(c => c.CategoryName, new {@class="form-control"})
+                    @Html.ValidationMessageFor(c=>c.CategoryName)
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+                @Html.HiddenFor(c=>c.CategoryId)
+            }
+            </div>
+        </div>
+    </div>
+
+
+

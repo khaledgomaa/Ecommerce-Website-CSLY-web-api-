@@ -1,0 +1,106 @@
+﻿@model IEnumerable<CSLY.Models.Category>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Breadcrumbs-->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="#">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Categories</li>
+    </ol>
+    <!-- DataTables Example -->
+    <div class="card mb-3">
+        <div class="card-header">
+            <i class="fas fa-table"></i>
+            Category Details
+            <a href="~/Categories/New" class="btn btn-info pull-right fa fa-plus">Add New</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+    <table class="table table-bordered"id="category" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            @*<th>Sr. No.</th>*@
+            <th>Category Name</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+       
+    </tbody>
+
+    </table>
+</div>
+
+    </div>
+    
+    </div>
+
+
+
+
+@section scripts
+{
+
+    <script>
+        $(document).ready(function () {
+                $.ajax({
+                    url: "/api/Categories",
+                    dataSrc: "",
+                    method:"GET",   
+                    success: function (data) {
+                        $('#category').DataTable({
+
+                            stateSave: true,
+                            "columnsDefs": [
+                                {
+                                    "width": "1200px", "targets": 0
+                                }
+                            ],
+                            data: data,
+                            columns: [
+                                {
+
+                                    //data : "CategoryId",
+                                    data: "CategoryName",
+                                    render: function (data, type, Category) {
+                                        return "<a href = '/Categories/Edit/" + Category.CategoryId + "'>" + Category.CategoryName + "</a>";
+                                    }
+
+                                },
+
+                                {
+                                    data: "CategoryId",
+                                    render: function (data) {
+                                        return "<button class='btn-link js-delete' data-category-id=" + data + ">Delete</button>";
+                                    }
+                                },
+
+                            ]
+                        });
+                        console.log(data);
+                    }
+                });
+                $("#category").on("click", ".js-delete", function () {
+                    var button = $(this);
+                    bootbox.confirm("Are you sure you wanna remove this category", function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: "/api/Categories/" + button.attr("data-category-id"),
+                                method: "DELETE",
+                                success: function () {
+                                    button.parents("tr").remove();
+                                }
+                            });
+                        }
+                    });
+                });
+            });  
+    </script>
+}
