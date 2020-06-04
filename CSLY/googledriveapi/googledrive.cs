@@ -1,4 +1,5 @@
 ﻿using Google.Apis.Auth.OAuth2;
+using Google.Apis.Download;
 using Google.Apis.Drive.v3;
 using Google.Apis.Drive.v3.Data;
 using Google.Apis.Services;
@@ -89,5 +90,52 @@ namespace CSLY.googledriveapi
             }
         }
 
+        private static void SaveStream(MemoryStream stream, string FilePath)
+        {
+            using (System.IO.FileStream file = new FileStream(FilePath, FileMode.Create, FileAccess.ReadWrite))
+            {
+                stream.WriteTo(file);
+            }
+        }
+
+        public static string DownloadGoogleFile(string fileId)
+        {
+            DriveService service = GetService();
+
+            string FolderPath = "E:/";
+            FilesResource.GetRequest request = service.Files.Get(fileId);
+
+            string FileName = request.Execute().Name;
+            string FilePath = System.IO.Path.Combine(FolderPath, FileName);
+
+            MemoryStream stream1 = new MemoryStream();
+
+            request.MediaDownloader.ProgressChanged += (Google.Apis.Download.IDownloadProgress progress) =>
+            {
+                switch (progress.Status)
+                {
+                    case DownloadStatus.Downloading:
+                        {
+                            //Console.WriteLine(progress.BytesDownloaded);
+                            break;
+                        }
+                    case DownloadStatus.Completed:
+                        {
+                            //Console.WriteLine("Download complete.");
+                            SaveStream(stream1, FilePath);
+                            break;
+                        }
+                    case DownloadStatus.Failed:
+                        {
+                            //Console.WriteLine("Download failed.");
+                            break;
+                        }
+                }
+            };
+            request.Download(stream1);
+            return FilePath;
+        }
+
+       
     }
 }

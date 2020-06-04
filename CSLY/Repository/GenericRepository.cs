@@ -22,6 +22,11 @@ namespace CSLY.Repository
             dbContext.Set<TEntity>().Add(entity);
         }
 
+        public void AddRange(IEnumerable<TEntity> entity)
+        {
+            dbContext.Set<TEntity>().AddRange(entity);
+        }
+
         public IEnumerable<TEntity> GetAll()
         {
             return dbContext.Set<TEntity>().ToList();
@@ -95,6 +100,8 @@ namespace CSLY.Repository
         {
             return dbContext.Set<TEntity>().Include(includes).ToList();
         }
+
+        
 
         //public IQueryable<TEntity> IncludeMultiple<TEntity>(IQueryable<TEntity> query, params Expression<Func<TEntity, object>>[] includes)
         //{

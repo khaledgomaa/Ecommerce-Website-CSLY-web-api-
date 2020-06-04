@@ -15,11 +15,12 @@ namespace CSLY.Models
 
         [Required(ErrorMessage = "You should fill out the name")]
         [StringLength(100, ErrorMessage = "Maximum number of characters is 100 and Minimum is 3", MinimumLength = 3)]
+        [Index("This Name is already exit", IsUnique = true)]
         public string ProductName { get; set; }
 
         [Required]
         [Display(Name ="Category")]
-        public int CategoryId { get; set; }
+        public int CategoryId { get; set; } 
 
         public bool? IsActive { get; set; }
 

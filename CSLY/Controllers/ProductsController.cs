@@ -8,6 +8,7 @@ using CSLY.Repository;
 using CSLY.Models;
 using System.Data.Entity;
 using CSLY.ViewModel;
+using CSLY.MyAuthorizations;
 
 namespace CSLY.Controllers
 {
@@ -15,6 +16,8 @@ namespace CSLY.Controllers
     {
         // GET: Products
         protected GenericUnitofWork dbContext = new GenericUnitofWork();
+
+
         public ActionResult Index()
         {
             var products = dbContext.GetRepositoryInstance<Product>()

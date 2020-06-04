@@ -12,6 +12,7 @@ namespace CSLY.Repository
         IEnumerable<TEntity> GetAllInclude(Expression<Func<TEntity, object>> includes);
         int GetAllRecordsCount();
         void Add(TEntity entity);
+        void AddRange(IEnumerable<TEntity> entity);
         TEntity GetFirstOrDefault(int recordId);
         void Remove(TEntity entity);
         void RemoveByWhereClause(Func<TEntity, bool> wherePredict);

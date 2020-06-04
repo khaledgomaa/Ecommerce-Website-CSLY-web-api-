@@ -9,6 +9,7 @@ namespace CSLY
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+            ConfigureJWT(app);
         }
     }
 }

@@ -8,17 +8,18 @@ using System.Web.Http;
 using CSLY.Models;
 using AutoMapper;
 using CSLY.Dtos;
+using CSLY.MyAuthorizations;
 
 namespace CSLY.Controllers.api
 {
+    [JwtAuthorize]
     public class CategoriesController : ApiController
     {
-        protected GenericUnitofWork _unitOfWork = new GenericUnitofWork();
-
+        private GenericUnitofWork dbContext = new GenericUnitofWork();
 
         public IHttpActionResult GetCategories(string query = null)
         {
-            var categoryInDb = _unitOfWork.GetRepositoryInstance<Category>()
+            var categoryInDb = dbContext.GetRepositoryInstance<Category>()
                 .GetAll()
                 .ToList();
             if (!string.IsNullOrWhiteSpace(query))
@@ -27,9 +28,10 @@ namespace CSLY.Controllers.api
             return Ok(categoryInDb);
         }
 
+
         public IHttpActionResult GetCategory(int id)
         {
-            var categoryInDb = _unitOfWork.GetRepositoryInstance<Category>()
+            var categoryInDb = dbContext.GetRepositoryInstance<Category>()
                 .GetFirstOrDefault(id);
             if(categoryInDb != null && categoryInDb.IsActive == true)
             {
@@ -38,10 +40,11 @@ namespace CSLY.Controllers.api
             return NotFound();
         }
 
-        [Route("api/Categories/{status}/{pageNumber}")]
+        
+        [Route("api/Categories/GetCategoriesPagination/{status}/{pageNumber}")]
         public IHttpActionResult GetCategoriesPagination(int status , int pageNumber)
         {
-            var categoryInDb = _unitOfWork.GetRepositoryInstance<Category>()
+            var categoryInDb = dbContext.GetRepositoryInstance<Category>()
                 .GetAll()
                 .Skip(status * (pageNumber - 1))
                 .Take(status);
@@ -59,8 +62,8 @@ namespace CSLY.Controllers.api
                 return BadRequest();
             }
             newCategory.IsActive = true;
-            _unitOfWork.GetRepositoryInstance<Category>().Add(newCategory);
-            _unitOfWork.Complete();
+            dbContext.GetRepositoryInstance<Category>().Add(newCategory);
+            dbContext.Complete();
             return Created(new Uri(Request.RequestUri + "/" + newCategory.CategoryId), newCategory);
         }
 
@@ -71,13 +74,13 @@ namespace CSLY.Controllers.api
             {
                 return BadRequest();
             }
-            var categoryInDb = _unitOfWork.GetRepositoryInstance<Category>().GetFirstOrDefault(id);
+            var categoryInDb = dbContext.GetRepositoryInstance<Category>().GetFirstOrDefault(id);
             if(categoryInDb != null)
             {
                 if (categoryInDb.IsActive == true)
                 {
                     categoryInDb.CategoryName = newcategory.CategoryName;
-                    _unitOfWork.Complete();
+                    dbContext.Complete();
                     return Created(new Uri(Request.RequestUri + "/" + categoryInDb.CategoryId), categoryInDb);
                 }
             }
@@ -88,8 +91,8 @@ namespace CSLY.Controllers.api
         public IHttpActionResult DeleteCategory(int id)
         {
             var categoryId = new Category { CategoryId = id };
-            _unitOfWork.GetRepositoryInstance<Category>().Remove(categoryId);
-            _unitOfWork.Complete();
+            dbContext.GetRepositoryInstance<Category>().Remove(categoryId);
+            dbContext.Complete();
             return Ok();
         }
 
