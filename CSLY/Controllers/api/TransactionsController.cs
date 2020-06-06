@@ -76,10 +76,11 @@ namespace CSLY.Controllers.api
                 //if it's first order today so we need to save value of myFirstOrder.id in
                 //checkClientFirstOrder.Id to add in later in orderitem table
                 checkClientFirstOrder = myFirstOrder;
+                dbContext.Complete();
             }
 
             //Update Products.Amount for all products
-            myAllOrders = UpdateProductsToDb(transDto.ProductItems , checkClientFirstOrder.Id);
+            myAllOrders = UpdateProductsToDb(transDto.ProductItems, checkClientFirstOrder.Id);
 
             //add all orders in orderitem table with orderId for this day
             //so we can keep track of each client orders per day
@@ -90,10 +91,10 @@ namespace CSLY.Controllers.api
             return Ok(checkClientFirstOrder);
         }
 
-        private IEnumerable<OrderItem> UpdateProductsToDb(IEnumerable<ProductItem> myProductItems , int orderId)
+        private IEnumerable<OrderItem> UpdateProductsToDb(IEnumerable<ProductItem> myProductItems, int orderId)
         {
             List<OrderItem> myOrderItemList = new List<OrderItem>();
-            foreach(ProductItem pItem in myProductItems)
+            foreach (ProductItem pItem in myProductItems)
             {
                 var productInDb = dbContext.GetRepositoryInstance<Product>()
                     .GetFirstOrDefaultByParam(p => p.ProductName == pItem.ProductName);
@@ -103,7 +104,8 @@ namespace CSLY.Controllers.api
                     productInDb.Amount -= pItem.Quantity;
                     dbContext.Complete();
                     myOrderItemList.Add(new OrderItem
-                    { OrderId = orderId , ProductId = productInDb.ProductId , Quantity = pItem.Quantity , Price = pItem.Price});
+                    { OrderId = orderId, ProductId = productInDb.ProductId, Quantity = pItem.Quantity
+                    , Price = productInDb.Price});
                 }
             }
             return myOrderItemList;
