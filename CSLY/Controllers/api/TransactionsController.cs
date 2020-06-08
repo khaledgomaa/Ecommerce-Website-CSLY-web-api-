@@ -97,16 +97,13 @@ namespace CSLY.Controllers.api
             foreach (ProductItem pItem in myProductItems)
             {
                 var productInDb = dbContext.GetRepositoryInstance<Product>()
-                    .GetFirstOrDefaultByParam(p => p.ProductName == pItem.ProductName);
+                    .GetFirstOrDefaultByParam(p => p.ProductName == pItem.ProductName && p.Amount >= pItem.Quantity);
 
-                if (productInDb.Amount >= pItem.Quantity)
-                {
                     productInDb.Amount -= pItem.Quantity;
                     dbContext.Complete();
                     myOrderItemList.Add(new OrderItem
                     { OrderId = orderId, ProductId = productInDb.ProductId, Quantity = pItem.Quantity
                     , Price = productInDb.Price});
-                }
             }
             return myOrderItemList;
         }

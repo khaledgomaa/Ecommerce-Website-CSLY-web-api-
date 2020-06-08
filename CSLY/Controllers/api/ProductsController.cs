@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web.Http;
 using CSLY.Repository;
 using CSLY.Models;
-using CSLY.googledriveapi;
 using CSLY.MyAuthorizations;
 using AutoMapper;
 using CSLY.Dtos;
@@ -40,7 +39,7 @@ namespace CSLY.Controllers.api
             {
                 return Ok(dbContext.GetRepositoryInstance<Product>().
                 GetAllInclude(p => p.Category).
-                Where(p => p.IsActive == true).ToList()
+                Where(p => p.IsActive == true && p.Amount > 0).ToList()
                 .Select(Mapper.Map<Product, ProductDto>));
             }
 
@@ -119,8 +118,6 @@ namespace CSLY.Controllers.api
             var productInDb = dbContext.GetRepositoryInstance<Product>().GetFirstOrDefault(id);
             dbContext.GetRepositoryInstance<Product>().Remove(productInDb);
             dbContext.Complete();
-            if(productInDb.ImagePath != null)
-                googledrive.DeleteFile(productInDb.ImagePath);
             return Ok();
         }
 
