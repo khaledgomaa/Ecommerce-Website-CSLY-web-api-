@@ -16,9 +16,12 @@ namespace CSLY.Models
         public string Email { get; set; }
 
         [Required]
+        [DataType(DataType.Password)]
         public string Password { get; set; }
 
         [Required]
+        [DataType(DataType.Password)]
+        [Compare("Password")]
         public string ConfirmedPassword { get; set; }
 
         [Required]
