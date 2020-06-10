@@ -18,7 +18,7 @@ namespace CSLY.Controllers.api
         {
             //Add password from userData into AccountInfo table then 
 
-            if (!ModelState.IsValid || userData.Password != userData.ConfirmedPassword)
+            if (!ModelState.IsValid)
                 return BadRequest();
 
 
