@@ -2,7 +2,7 @@
 
 **It's a sample of e-commerce website includes the following** :- 
 
-**Authentication and Authorization**
+**Authentication and Authorization using JWT (Json Web Token)**
 
 *I explained it in details in this [link](https://github.com/khaledgomaa/Authentication-and-authorization-using-jwt-with-web-api.git)* 
 
